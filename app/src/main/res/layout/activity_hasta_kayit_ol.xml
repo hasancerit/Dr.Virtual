@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/arkaPlan"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.HastaKayitOlActivity"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:layout_marginBottom="30dp"
+        android:textSize="28dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/bail"
+        />
+
+    <EditText
+        android:id="@+id/edt_hastaKayitOlTC"
+        android:fontFamily="@font/bailight"
+        android:maxLength="11"
+        android:hint="TC"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="25dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/edt_hastaKayitOlIsim"
+        android:fontFamily="@font/bailight"
+        android:hint="Ad"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="25dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/edt_hastaKayitOlSoyisim"
+        android:fontFamily="@font/bailight"
+        android:hint="Soyad"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="25dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edt_hastaKayitOlTel"
+        android:fontFamily="@font/bailight"
+        android:maxLength="11"
+        android:hint="Telefon"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="25dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/edt_hastaKayitOlSifre"
+        android:inputType="textPassword"
+        android:fontFamily="@font/bailight"
+        android:maxLength="11"
+        android:hint="Şifre"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="25dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:fontFamily="@font/bailight"
+        android:maxLength="11"
+        android:hint="Şifre Tekrar"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="25dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:onClick="hastaKayitOlButonTik"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="40dp"
+        android:text="Kayıt Ol"
+        android:textSize="16dp"
+        android:fontFamily="@font/bail"
+        android:textAllCaps="false"
+        android:id="@+id/htoggle"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:background="@drawable/custom_button_hasta"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "623399701739",
+    "firebase_url": "https://drvirtual-cacbe.firebaseio.com",
+    "project_id": "drvirtual-cacbe",
+    "storage_bucket": "drvirtual-cacbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623399701739:android:889d6ddf358b0cf7",
+        "android_client_info": {
+          "package_name": "com.yusufalicezik.drvirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623399701739-megborud3tn6om2ahnnsnqlmfqssddjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yusufalicezik.drvirtual",
+            "certificate_hash": "dc187a8d5c689f32520706a427946171ad6bd083"
+          }
+        },
+        {
+          "client_id": "623399701739-eshrmi4sjtkptj1mpmrraicfrmnrjtae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD-JL_YB8m1Vp2JO4YkpsDJ_StuGetOaE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623399701739-eshrmi4sjtkptj1mpmrraicfrmnrjtae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HastaIslemleri.MessagesPersonActivity"
+    android:background="@color/mesajArka">
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="#6C9CA5"
+        app:cardElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/personMessagesIsimSoyisimtxt"
+            android:onClick="puanlaIsimTik"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/b2"
+            android:textSize="18dp"
+            android:text="Doktor Adı"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/personMessagesListe"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="#6C9CA5"
+        app:cardElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/personMessagesMesajGonderEdittext"
+                android:fontFamily="@font/b4"
+                android:textColor="@android:color/white"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:hint="Mesaj"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="@color/mesajArka"
+                />
+
+            <Button
+                android:id="@+id/personMessagesMesajGonderButton"
+                android:onClick="mesajGonderTic"
+                android:fontFamily="@font/bail"
+                android:textColor="@android:color/white"
+                android:background="@color/mesajArka"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="7"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Gönder"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

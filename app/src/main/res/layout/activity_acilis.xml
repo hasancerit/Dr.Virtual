@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcilisActivity">
+    <RelativeLayout
+        android:background="@color/arkaPlan"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:onClick="onClickHasta"
+                    android:gravity="center_horizontal|center_vertical"                    android:textSize="16dp"
+                    android:fontFamily="@font/bail"
+                    android:textAllCaps="false"
+                    android:id="@+id/htoggle"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_button_hasta"
+                    android:textOn="Hasta Giriş"
+                    android:textOff="Hasta Giriş"
+                    android:textColor="@android:color/white" />
+
+                <ToggleButton
+                    android:onClick="onClickDoktor"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/bail"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/dtoggle"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/custom_button_doktor"
+                    android:textOff="Doktor Giriş"
+                    android:textOn="Doktor Giriş"
+                    />
+
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:layout_marginTop="15dp"
+                android:id="@+id/vp"
+                android:layout_width="320dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="350dp">
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,63 @@
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/dArka"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_width="320dp"
+    android:layout_height="350dp"
+    app:cardCornerRadius="15dp"
+    card_view:cardElevation="0dp"
+    app:cardElevation="0dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal">
+
+            <EditText
+                android:fontFamily="@font/bailight"
+                android:maxLength="11"
+                android:hint="TC"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginBottom="25dp"
+                android:layout_width="250dp"
+                android:layout_height="50dp" />
+
+            <EditText
+                android:fontFamily="@font/bailight"
+                android:inputType="textPassword"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Şifre"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="250dp"
+                android:layout_height="50dp" />
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:elevation="0dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:fontFamily="@font/b4"
+                android:textAllCaps="false"
+                android:text="Giriş"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/custom_giris_button_2"
+                android:layout_width="90dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

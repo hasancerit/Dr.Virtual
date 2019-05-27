@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:cardBackgroundColor="@color/hArka"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/customGenelMesajlarDoktorAdiLabel"
+            android:text="Hasan Cerit"
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/bail"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/customGenelMesajlarRandevuSaatiLabel"
+            android:text="08:00"
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/bail"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

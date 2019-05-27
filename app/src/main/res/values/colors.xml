@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccentOpacity">#6d00574b</color>
+
+    <color name="arkaPlan">#D6448C97</color>
+    <color name="arkaPlan2">#9fa183</color>
+    <color name="textArka">#7bffffff</color>
+    <color name="hArka">#874D7B8B</color>
+    <color name="dArka">#8F2E8F96</color>
+    <color name="hastaGiris">#4D7B8B </color>
+    <color name="doktorGiris">#2E8F96 </color>
+    <color name="tabBos">#2c9b7a</color>
+    <color name="tabDolu">#005c52</color>
+    <color name="mesajArka">#D99BC7CE</color>
+    <color name="spinnerColor">#D8D8D8</color>
+
+
+</resources>

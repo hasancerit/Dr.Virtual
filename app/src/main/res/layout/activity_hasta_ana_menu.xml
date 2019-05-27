@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HastaIslemleri.HastaAnaMenuActivity"
+    android:background="@color/arkaPlan">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="Dr. Virtual"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_hastaAnaMenuHG"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hoş Geldiniz, Hasan Cerit"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <android.support.v7.widget.CardView
+            android:onClick="randevuAlMenuTik"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            app:cardBackgroundColor="@color/hArka"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+
+                android:fontFamily="@font/bail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Randevu Al"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:onClick="randevuGecmisMenuTik"
+            android:id="@+id/randevuGecmisi"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            app:cardBackgroundColor="@color/hArka"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:fontFamily="@font/bail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Randevu\nGeçmişi"
+                android:lines="2"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:onClick="onMuayeneMenuTik"
+            android:id="@+id/onmuayene"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            app:cardBackgroundColor="@color/hArka"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+                android:fontFamily="@font/bail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ön Muayene"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            app:cardBackgroundColor="@color/hArka"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+
+                android:fontFamily="@font/bail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Tahlil\nSonuçları"
+                android:lines="2"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:onClick="profilBilgileriGuncelleTik"
+            android:id="@+id/profilGuncelle"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            app:cardBackgroundColor="@color/hArka"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+                android:lines="3"
+                android:fontFamily="@font/bail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil\nBilgileri\nGüncelle"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            app:cardBackgroundColor="@color/hArka"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+                android:fontFamily="@font/bail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bilgi Al"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </android.support.v7.widget.CardView>
+    </GridLayout>
+
+    <TextView
+        android:onClick="cikisYapButonTik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çıkış Yap"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/b4"
+        android:textSize="14dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
